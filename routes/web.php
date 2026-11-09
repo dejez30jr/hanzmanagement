@@ -23,7 +23,7 @@ Route::get('/services/{slug}', [ServiceController::class, 'show'])
     ->where('slug', 'entertainment|promotion|event|production-branding');
 
 // ==== SEO Landing Pages (Service + Local SPG per Kota) ====
-$landingSlugs = 'jasa-spg|jasa-spb|jasa-usher|jasa-talent|manpower-event|event|promotion|entertainment|production|branding|jasa-spg-jakarta|jasa-spg-bogor|jasa-spg-bandung|jasa-spg-depok|jasa-spg-bekasi|jasa-spg-tangerang|jasa-spg-surabaya';
+$landingSlugs = 'jasa-spg|jasa-spb|jasa-usher|jasa-talent|manpower-event|event|promotion|entertainment|production|branding|agency-spg|event-organizer|outsourcing|production-booth|event-management|agency-event|agency-talent|jasa-spg-jakarta|jasa-spg-bogor|jasa-spg-bandung|jasa-spg-depok|jasa-spg-bekasi|jasa-spg-tangerang|jasa-spg-surabaya';
 
 // Ganti bahasa (wajib sebelum rute catch-all)
 Route::get('/locale/{locale}', function (string $locale, Request $request) {
@@ -41,7 +41,7 @@ Route::get('/{slug}', [LandingController::class, 'index'])
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/blog/{slug}', [BlogController::class, 'show'])
     ->name('blog.show')
-    ->where('slug', 'harga-jasa-spg|tugas-spg-event|perbedaan-spg-dan-usher|cara-memilih-agency-spg|brand-activation|manpower-event|jasa-spg-untuk-event');
+    ->where('slug', 'harga-jasa-spg|tugas-spg-event|perbedaan-spg-dan-usher|cara-memilih-agency-spg|brand-activation|manpower-event|jasa-spg-untuk-event|agency-spg-profesional|event-organizer-profesional|jasa-outsourcing-tenaga-kerja|production-booth-pameran|event-management-adalah|agency-event-jakarta|agency-talent-model-mc-spg|jasa-spg-untuk-promotion|jasa-spg-untuk-production|jasa-spg-untuk-branding|jasa-spg-untuk-entertainment');
 
 // Sitemap untuk SEO
 Route::get('/sitemap.xml', [SitemapController::class, 'index']);
