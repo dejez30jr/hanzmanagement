@@ -182,70 +182,7 @@ class SeoData
                 'cta' => 'Konsultasi Branding',
                 'related_services' => ['promotion', 'production', 'entertainment'],
             ],
-        ];
-    }
-
-    /** Data halaman Local SEO (jasa SPG per kota) dengan konten lokal unik. */
-    public function locations(): array
-    {
-        return [
             [
-                'slug' => 'jasa-spg-jakarta',
-                'city' => 'Jakarta',
-                'meta_title' => 'Jasa SPG Jakarta | Agency SPG di Jakarta | Hanz Management',
-                'meta_desc' => 'Cari jasa SPG di Jakarta untuk mall, event, dan roadshow? Hanz Management menyediakan SPG profesional di seluruh area Jakarta dan sekitarnya.',
-                'intro' => 'Jakarta adalah pusat bisnis dan gaya hidup Indonesia, dengan ratusan mall, pusat perbelanjaan, dan venue event. Brand yang berpromosi di Jakarta membutuhkan SPG yang mampu menyesuaikan diri dengan ritme kota yang cepat dan beragam.',
-                'area' => 'Kami melayani seluruh area DKI Jakarta: Jakarta Pusat, Jakarta Utara, Jakarta Selatan, Jakarta Timur, dan Jakarta Barat — termasuk pusat perbelanjaan dan kawasan bisnis utama.',
-            ],
-            [
-                'slug' => 'jasa-spg-bogor',
-                'city' => 'Bogor',
-                'meta_title' => 'Jasa SPG Bogor | Agency SPG di Bogor | Hanz Management',
-                'meta_desc' => 'Basis Hanz Management di Bogor! Jasa SPG Bogor untuk mall, event, dan roadshow dengan talent lokal terlatih. Hubungi kami hari ini.',
-                'intro' => 'Sebagai perusahaan yang berbasis di Kota Bogor, kami memahami karakter masyarakat dan bisnis lokal secara mendalam. Layanan SPG kami di Bogor didukung resource team yang siap mobile ke berbagai lokasi di Kota dan Kabupaten Bogor.',
-                'area' => 'Kami melayani area Kota Bogor dan sekitarnya: Bogor Tengah, Bogor Barat, Bogor Timur, Bogor Selatan, Tanah Sareal, serta lokasi-lokasi di Kabupaten Bogor seperti Sentul dan Cibinong.',
-            ],
-            [
-                'slug' => 'jasa-spg-bandung',
-                'city' => 'Bandung',
-                'meta_title' => 'Jasa SPG Bandung | Agency SPG di Bandung | Hanz Management',
-                'meta_desc' => 'Jasa SPG Bandung untuk mall, factory outlet, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Bandung.',
-                'intro' => 'Bandung terkenal sebagai destinasi belanja dengan ribuan toko dan factory outlet yang selalu ramai pengunjung. Kegiatan promosi di Bandung membutuhkan SPG yang komunikatif dan dekat dengan target pasar yang kebanyakan anak muda dan wisatawan.',
-                'area' => 'Kami melayani area Bandung Raya: Kota Bandung, Cimahi, dan Kabupaten Bandung — termasuk pusat perbelanjaan utama dan kawasan wisata belanja.',
-            ],
-            [
-                'slug' => 'jasa-spg-depok',
-                'city' => 'Depok',
-                'meta_title' => 'Jasa SPG Depok | Agency SPG di Depok | Hanz Management',
-                'meta_desc' => 'Jasa SPG Depok untuk mall, kampus, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Depok.',
-                'intro' => 'Depok adalah kota yang berkembang pesat dengan banyak pusat perbelanjaan dan kawasan permukiman padat. Brand yang berpromosi di Depok membutuhkan SPG yang mampu menjangkau pasar keluarga dan pelajar/mahasiswa.',
-                'area' => 'Kami melayani area Depok: Beji, Cimanggis, Sukmajaya, Pancoran Mas, dan sekitarnya — termasuk pusat perbelanjaan dan area kampus.',
-            ],
-            [
-                'slug' => 'jasa-spg-bekasi',
-                'city' => 'Bekasi',
-                'meta_title' => 'Jasa SPG Bekasi | Agency SPG di Bekasi | Hanz Management',
-                'meta_desc' => 'Jasa SPG Bekasi untuk mall, kawasan industri, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Bekasi.',
-                'intro' => 'Bekasi memiliki kawasan industri terbesar di Indonesia sekaligus pusat perbelanjaan yang terus berkembang. Kegiatan promosi di Bekasi meliputi area residential, pusat perbelanjaan, dan perusahaan — membutuhkan SPG yang fleksibel dan profesional.',
-                'area' => 'Kami melayani area Bekasi Raya: Bekasi Timur, Bekasi Barat, Cikarang, Tambun, dan sekitarnya.',
-            ],
-            [
-                'slug' => 'jasa-spg-tangerang',
-                'city' => 'Tangerang',
-                'meta_title' => 'Jasa SPG Tangerang | Agency SPG di Tangerang | Hanz Management',
-                'meta_desc' => 'Jasa SPG Tangerang untuk mall, BSD, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Tangerang.',
-                'intro' => 'Tangerang, termasuk BSD dan Tangerang Selatan, adalah salah satu kawasan hunian dan pusat bisnis yang berkembang paling cepat. Promosi di Tangerang menjangkau keluarga modern dan pekerja profesional professional.',
-                'area' => 'Kami melayani area Tangerang Raya: Kota Tangerang, Tangerang Selatan, BSD, Ciputat, dan sekitarnya.',
-            ],
-            [
-                'slug' => 'jasa-spg-surabaya',
-                'city' => 'Surabaya',
-                'meta_title' => 'Jasa SPG Surabaya | Agency SPG di Surabaya | Hanz Management',
-                'meta_desc' => 'Jasa SPG Surabaya untuk mall dan event di Jawa Timur. Agency SPG Hanz Management siap mendukung promosi brand Anda di Surabaya.',
-                'intro' => 'Surabaya adalah ibu kota Jawa Timur dan pusat ekonomi terbesar kedua di Indonesia. Promosi di Surabaya menjangkau pasar yang luas dan beragam, dari pusat perbelanjaan modern hingga kawasan bisnis.',
-                'area' => 'Kami melayani area Surabaya Raya: seluruh kota Surabaya, Sidoarjo, Gresik, dan kawasan sekitarnya di Jawa Timur.',
-            ],
-              [
                 'slug' => 'agency-spg',
                 'h1' => 'Agency SPG Profesional: Talent Terlatih untuk Promosi Brand Anda',
                 'meta_title' => 'Agency SPG Profesional Indonesia | Hanz Management',
@@ -370,6 +307,69 @@ class SeoData
                 ],
                 'cta' => 'Cari Talent untuk Acara Anda',
                 'related_services' => ['jasa-talent', 'jasa-spg', 'entertainment'],
+            ],
+        ];
+    }
+
+    /** Data halaman Local SEO (jasa SPG per kota) dengan konten lokal unik. */
+    public function locations(): array
+    {
+        return [
+            [
+                'slug' => 'jasa-spg-jakarta',
+                'city' => 'Jakarta',
+                'meta_title' => 'Jasa SPG Jakarta | Agency SPG di Jakarta | Hanz Management',
+                'meta_desc' => 'Cari jasa SPG di Jakarta untuk mall, event, dan roadshow? Hanz Management menyediakan SPG profesional di seluruh area Jakarta dan sekitarnya.',
+                'intro' => 'Jakarta adalah pusat bisnis dan gaya hidup Indonesia, dengan ratusan mall, pusat perbelanjaan, dan venue event. Brand yang berpromosi di Jakarta membutuhkan SPG yang mampu menyesuaikan diri dengan ritme kota yang cepat dan beragam.',
+                'area' => 'Kami melayani seluruh area DKI Jakarta: Jakarta Pusat, Jakarta Utara, Jakarta Selatan, Jakarta Timur, dan Jakarta Barat — termasuk pusat perbelanjaan dan kawasan bisnis utama.',
+            ],
+            [
+                'slug' => 'jasa-spg-bogor',
+                'city' => 'Bogor',
+                'meta_title' => 'Jasa SPG Bogor | Agency SPG di Bogor | Hanz Management',
+                'meta_desc' => 'Basis Hanz Management di Bogor! Jasa SPG Bogor untuk mall, event, dan roadshow dengan talent lokal terlatih. Hubungi kami hari ini.',
+                'intro' => 'Sebagai perusahaan yang berbasis di Kota Bogor, kami memahami karakter masyarakat dan bisnis lokal secara mendalam. Layanan SPG kami di Bogor didukung resource team yang siap mobile ke berbagai lokasi di Kota dan Kabupaten Bogor.',
+                'area' => 'Kami melayani area Kota Bogor dan sekitarnya: Bogor Tengah, Bogor Barat, Bogor Timur, Bogor Selatan, Tanah Sareal, serta lokasi-lokasi di Kabupaten Bogor seperti Sentul dan Cibinong.',
+            ],
+            [
+                'slug' => 'jasa-spg-bandung',
+                'city' => 'Bandung',
+                'meta_title' => 'Jasa SPG Bandung | Agency SPG di Bandung | Hanz Management',
+                'meta_desc' => 'Jasa SPG Bandung untuk mall, factory outlet, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Bandung.',
+                'intro' => 'Bandung terkenal sebagai destinasi belanja dengan ribuan toko dan factory outlet yang selalu ramai pengunjung. Kegiatan promosi di Bandung membutuhkan SPG yang komunikatif dan dekat dengan target pasar yang kebanyakan anak muda dan wisatawan.',
+                'area' => 'Kami melayani area Bandung Raya: Kota Bandung, Cimahi, dan Kabupaten Bandung — termasuk pusat perbelanjaan utama dan kawasan wisata belanja.',
+            ],
+            [
+                'slug' => 'jasa-spg-depok',
+                'city' => 'Depok',
+                'meta_title' => 'Jasa SPG Depok | Agency SPG di Depok | Hanz Management',
+                'meta_desc' => 'Jasa SPG Depok untuk mall, kampus, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Depok.',
+                'intro' => 'Depok adalah kota yang berkembang pesat dengan banyak pusat perbelanjaan dan kawasan permukiman padat. Brand yang berpromosi di Depok membutuhkan SPG yang mampu menjangkau pasar keluarga dan pelajar/mahasiswa.',
+                'area' => 'Kami melayani area Depok: Beji, Cimanggis, Sukmajaya, Pancoran Mas, dan sekitarnya — termasuk pusat perbelanjaan dan area kampus.',
+            ],
+            [
+                'slug' => 'jasa-spg-bekasi',
+                'city' => 'Bekasi',
+                'meta_title' => 'Jasa SPG Bekasi | Agency SPG di Bekasi | Hanz Management',
+                'meta_desc' => 'Jasa SPG Bekasi untuk mall, kawasan industri, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Bekasi.',
+                'intro' => 'Bekasi memiliki kawasan industri terbesar di Indonesia sekaligus pusat perbelanjaan yang terus berkembang. Kegiatan promosi di Bekasi meliputi area residential, pusat perbelanjaan, dan perusahaan — membutuhkan SPG yang fleksibel dan profesional.',
+                'area' => 'Kami melayani area Bekasi Raya: Bekasi Timur, Bekasi Barat, Cikarang, Tambun, dan sekitarnya.',
+            ],
+            [
+                'slug' => 'jasa-spg-tangerang',
+                'city' => 'Tangerang',
+                'meta_title' => 'Jasa SPG Tangerang | Agency SPG di Tangerang | Hanz Management',
+                'meta_desc' => 'Jasa SPG Tangerang untuk mall, BSD, dan event. Agency SPG Hanz Management siap mendukung promosi brand Anda di Tangerang.',
+                'intro' => 'Tangerang, termasuk BSD dan Tangerang Selatan, adalah salah satu kawasan hunian dan pusat bisnis yang berkembang paling cepat. Promosi di Tangerang menjangkau keluarga modern dan pekerja profesional.',
+                'area' => 'Kami melayani area Tangerang Raya: Kota Tangerang, Tangerang Selatan, BSD, Ciputat, dan sekitarnya.',
+            ],
+            [
+                'slug' => 'jasa-spg-surabaya',
+                'city' => 'Surabaya',
+                'meta_title' => 'Jasa SPG Surabaya | Agency SPG di Surabaya | Hanz Management',
+                'meta_desc' => 'Jasa SPG Surabaya untuk mall dan event di Jawa Timur. Agency SPG Hanz Management siap mendukung promosi brand Anda di Surabaya.',
+                'intro' => 'Surabaya adalah ibu kota Jawa Timur dan pusat ekonomi terbesar kedua di Indonesia. Promosi di Surabaya menjangkau pasar yang luas dan beragam, dari pusat perbelanjaan modern hingga kawasan bisnis.',
+                'area' => 'Kami melayani area Surabaya Raya: seluruh kota Surabaya, Sidoarjo, Gresik, dan kawasan sekitarnya di Jawa Timur.',
             ],
         ];
     }
